@@ -33,6 +33,6 @@ class GameService{
     }
 
     fun remover(id: String) {
-        gameRepository.deleteById(id) 
+        gameRepository.deleteById(id)
     }
 }
